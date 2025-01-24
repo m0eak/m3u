@@ -1487,7 +1487,7 @@ script_log() {
 
 show_NoobIPTV # 展示横幅
 check_first_run  # 检查是否是第一次运行
-download_NoobIPTV  # 检查并更新 SH 脚本
+# download_NoobIPTV  # 检查并更新 SH 脚本
 [ -f "$CONFIG_FILE" ] && source "$CONFIG_FILE"  # 加载配置文件中的参数
 
 # 主循环

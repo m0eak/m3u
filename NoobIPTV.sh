@@ -1419,7 +1419,7 @@ setup_shortcut() {
     local script_path="$HOME/NoobIPTV.sh"
     echo "脚本路径: $script_path"
 
-    curl -sL https://yang-1989.eu.org/NoobIPTV.sh -o "$script_path"
+    curl -sL https://raw.githubusercontent.com/m0eak/m3u/refs/heads/main/NoobIPTV.sh -o "$script_path"
     chmod +x "$script_path"
 
     local shell_rc="$HOME/.bashrc"
